@@ -273,7 +273,7 @@ apply_gravity:
     	lw $t1, 0($t2)           
     	addi $t1, $t1, 1         
     	sw $t1, 0($t2)              	    	    	    	    	
-    	blt $t1, 8000, return_from
+    	blt $t1, 10000, return_from
     	# apply gravity (reset counter)
     	li $t1, 0
     	sw $t1, 0($t2)
