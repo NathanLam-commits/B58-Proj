@@ -21,12 +21,12 @@
 # 1. double jump
 # 2. start screen
 # # Link to video demonstration for final submission:
-# - (insert YouTube / MyMedia / other URL here). Make sure we can view it!
+# https://drive.google.com/file/d/1fqCTCc-gZfXh5db4GiX24xBRL5jrGgn6/view?usp=sharing
 # # Are you OK with us sharing the video with people outside course staff? 
-# - yes / no / yes, and please share this project github link as well!
+# - yes 
+# https://github.com/NathanLam-commits/B58-Proj
 # # Any additional information that the TA needs to know:
-# - (write here, if any)
-#
+# Not sure if matters but I lowered 1 platform after the demo so the level is easier
 #####################################################################
 
 # addresses
@@ -74,7 +74,7 @@ platforms: .word 15, 58, 10
 	   .word 40, 50, 10
 	   .word 30, 30, 7 
 	   .word -1, 27, 10
-	   .word 55, 20, 6
+	   .word 55, 25, 6
 num_plats: .word 6
 
 # coin draw vars
